@@ -26,6 +26,8 @@
         align-items: center;
         justify-content: space-between;
 
+        user-select: none;
+
         & > h2 {
             margin: 0;
             font-size: 1.6rem;
