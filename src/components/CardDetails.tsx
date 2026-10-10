@@ -1,17 +1,19 @@
 import "./CardDetails.css";
+import type { Card } from "../data/card.ts";
 
 type Props = {
-    title: string;
-    description: string;
+    card: Card;
 }
 
 function CardDetails(props: Props) {
     return (
         <article className="card-details">
-            <aside>Image...</aside>
+            <aside>
+                <img src={`/icons/${props.card.id}.svg`} alt="Icon" />
+            </aside>
 
-            <header>{props.title}</header>
-            <p>{props.description}</p>
+            <header>{props.card.title}</header>
+            <p>{props.card.description}</p>
         </article>
     );
 }

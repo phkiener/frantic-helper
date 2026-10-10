@@ -18,7 +18,20 @@
     & > aside {
         grid-area: image;
 
-        place-self: center center;
+        place-self: stretch;
+        background-color: black;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & > img {
+            max-height: 80%;
+            max-width: 80%;
+            object-fit: contain;
+        }
     }
 
     & > p {

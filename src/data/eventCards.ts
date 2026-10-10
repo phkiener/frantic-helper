@@ -1,7 +1,6 @@
-export type EventCard = {
-    title: string;
-    description: string;
-}
+import type { Card } from "./card.ts";
+
+export type EventCard = Card;
 
 export async function loadEventCards(): Promise<EventCard[]> {
     const result = await fetch("/eventCards.json");

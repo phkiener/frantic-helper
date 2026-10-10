@@ -1,8 +1,10 @@
 {
   "cards": [
     {
+      "id": "capitalism",
       "title": "Capitalism",
-      "description": "Those who have shall get more. Every person draws as many cards as they have on their hand."
+      "description": "Those who have shall get more. Every person draws as many cards as they have on their hand.",
+      "edition": "Base"
     }
   ]
 }

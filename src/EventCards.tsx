@@ -18,7 +18,7 @@ function EventCards(props: Props) {
             <IconButton label="Events" onClick={props.onClick} />
             <Overlay visible={props.expanded ?? false} title="Events" onClose={props.onClick}>
                 {cards.map(c =>
-                    <CardDetails title={c.title} description={c.description} />
+                    <CardDetails card={c} />
                 )}
             </Overlay>
         </>);
