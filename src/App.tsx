@@ -1,10 +1,11 @@
 import Scoreboard from "./Scoreboard.tsx";
 import SpecialCards from "./SpecialCards.tsx";
 import EventCards from "./EventCards.tsx";
+import About from "./About.tsx";
+import { useState } from "react";
 import "./App.css";
-import {useState} from "react";
 
-type ExpandedCard = "Events" | "SpecialCards" | undefined;
+type ExpandedCard = "Events" | "SpecialCards" | "About" | undefined;
 
 function App() {
     const [expandedCard, setExpandedCard] = useState<ExpandedCard>(undefined);
@@ -20,6 +21,7 @@ function App() {
             <footer>
                 <SpecialCards expanded={expandedCard === "SpecialCards"} onClick={() => toggleCard("SpecialCards")} />
                 <EventCards expanded={expandedCard === "Events"} onClick={() => toggleCard("Events")} />
+                <About expanded={expandedCard === "Events"} onClick={() => toggleCard("Events")} />
             </footer>
         </>);
 
