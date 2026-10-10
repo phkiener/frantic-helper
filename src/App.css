@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    height: 100dvh;
+    width: 100dvw;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+    justify-content: flex-start;
+
+    & > header {
+        flex: 0 0 36px;
+        padding: 0 18px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        font-size: 1.8rem;
+        font-family: sans-serif;
+
+        & > h1 {
+            margin: 0;
+            font-size: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    & > main {
+        flex: 1 1 100%;
+    }
+
+    & > footer {
+        flex: 0 0 144px;
+        padding: 0 18px;
+        position: sticky;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 36px;
+    }
+}
