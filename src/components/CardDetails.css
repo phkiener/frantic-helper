@@ -59,7 +59,7 @@
 
     &.Black img {
         background: black;
-        border-color: black;
+        border-color: white;
     }
 
     &.White img {
