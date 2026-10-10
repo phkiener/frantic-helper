@@ -10,13 +10,13 @@ type Props = {
 
 function Overlay(props: Props) {
     return (
-        <article className={props.visible ? "overlay epand" : "overlay collapse"}>
+        <section className={props.visible ? "overlay epand" : "overlay collapse"}>
             <header>
                 <h2>{props.title}</h2>
                 <button type="button" onClick={props.onClose}>Close</button>
             </header>
             {props.children}
-        </article>
+        </section>
     );
 }
 

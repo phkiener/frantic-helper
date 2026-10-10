@@ -1,0 +1,30 @@
+.card-details {
+    display: grid;
+    grid-template-areas:
+            "image title"
+            "image description";
+
+    grid-template-columns: 72px auto;
+    grid-template-rows: auto max-content;
+    grid-gap: 8px;
+
+    & > header {
+        grid-area: title;
+
+        font-weight: bold;
+
+    }
+
+    & > aside {
+        grid-area: image;
+
+        place-self: center center;
+    }
+
+    & > p {
+        grid-area: description;
+
+        margin: 0;
+        padding: 0;
+    }
+}
