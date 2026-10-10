@@ -13,7 +13,6 @@
         grid-area: title;
 
         font-weight: bold;
-
     }
 
     & > aside {
@@ -37,16 +36,24 @@
 
             border: 1px solid;
             border-radius: 8px;
+            filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
         }
     }
 
     &.Single img {
-        background: red;
+        background: conic-gradient(
+                from 0deg,
+                #ff0045 0% 25%,
+                #db7900 25% 50%,
+                #6db300 50% 75%,
+                #0095cd 75% 100%
+        );
+
         border-color: white;
     }
 
     &.Multi img {
-        background: linear-gradient(0deg, #ff0045,#db7900 33%, #6db300 66%, #0095cd);
+        background: linear-gradient(0deg, #ff0045, #db7900 33%, #6db300 66%, #0095cd);
         border-color: white;
     }
 
