@@ -5,6 +5,11 @@
     inset: 0;
     padding: 18px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
     background-color: white;
     overflow: hidden;
 
@@ -19,7 +24,7 @@
     }
 
     & > header {
-        margin-bottom: 18px;
+        flex: 0 0 max-content;
 
         display: flex;
         flex-direction: row;
