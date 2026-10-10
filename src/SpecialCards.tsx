@@ -3,6 +3,7 @@ import Overlay from "./components/Overlay.tsx";
 import CardScrollContainer from "./components/CardScrollContainer.tsx";
 import { type MouseEventHandler, useEffect, useRef, useState } from "react";
 import { type SpecialCard, loadSpecialCards } from "./data/specialCards.ts";
+import { compareCards } from "./data/card.ts";
 
 type Props = {
     expanded: boolean;
@@ -13,7 +14,7 @@ function SpecialCards(props: Props) {
     const [cards, setCards] = useState<SpecialCard[]>([]);
     const scrollContainer = useRef<HTMLDivElement>(null);
 
-    useEffect(() => { loadSpecialCards().then(c => setCards(c)); }, []);
+    useEffect(() => { loadSpecialCards().then(c => setCards(c.sort(compareCards))); }, []);
     useEffect(() => { scrollContainer.current!.scrollTop = 0 }, [props.expanded]);
 
     return (
