@@ -7,7 +7,7 @@ type Props = {
 
 function CardDetails(props: Props) {
     return (
-        <article className="card-details">
+        <article className={`card-details ${props.card.color}`}>
             <aside>
                 <img src={`/icons/${props.card.id}.svg`} alt="Icon" />
             </aside>

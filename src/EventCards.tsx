@@ -1,9 +1,8 @@
 import IconButton from "./components/IconButton.tsx";
 import Overlay from "./components/Overlay.tsx";
-import CardDetails from "./components/CardDetails.tsx";
+import CardScrollContainer from "./components/CardScrollContainer.tsx";
 import { type MouseEventHandler, useEffect, useRef, useState } from "react";
 import { type EventCard, loadEventCards } from "./data/eventCards.ts";
-import "./EventCards.css";
 
 type Props = {
     expanded: boolean;
@@ -19,11 +18,9 @@ function EventCards(props: Props) {
 
     return (
         <>
-            <IconButton label="Events" onClick={props.onClick} />
+            <IconButton label="Events" iconSrc="/icons/troublemaker.svg" onClick={props.onClick} />
             <Overlay visible={props.expanded ?? false} title="Events" onClose={props.onClick}>
-                <div className="event-card-list" ref={scrollContainer}>
-                    {cards.map(c => <CardDetails card={c} />)}
-                </div>
+                <CardScrollContainer ref={scrollContainer} cards={cards} />
             </Overlay>
         </>);
 }

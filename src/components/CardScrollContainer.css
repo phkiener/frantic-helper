@@ -1,12 +1,12 @@
-.event-card-list {
+.card-list {
     overflow: auto;
 
     flex: 1 1 100%;
-    padding: 18px 0;
+    padding: 18px 24px 18px 0;
 
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    gap: 8px;
+    gap: 18px;
 }

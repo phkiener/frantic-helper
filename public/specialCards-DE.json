@@ -1,0 +1,130 @@
+{
+  "cards": [
+    {
+      "id": "secondchance",
+      "title": "2nd Chance",
+      "description": "Spiele auf «2nd Chance» eine passende zweite Karte. Kannst du keine passende Karte spielen oder hast du keine zweite Handkarte, musst du eine Karte vom Stapel ziehen.",
+      "edition": "Base",
+      "color": "Single"
+    },
+    {
+      "id": "exchange",
+      "title": "Exchange",
+      "description": "Gib jemandem zwei deiner Handkarten und ziehe von derselben Person verdeckt zwei Karten, bevor sie deine Karten auf die Hand nimmt.\n\nHinweis: Hast du bzw. dein Opfer nur eine Handkarte, gibt es einen 2 gegen 1, 1 gegen 2 bzw. einen 1 gegen 1 Tausch. Spielst du «Exchange» als letzte Karte, musst du trotzdem bei jemandem zwei Karten ziehen.",
+      "edition": "Base",
+      "color": "Single"
+    },
+    {
+      "id": "gift",
+      "title": "Gift",
+      "description": "Schenke jemandem zwei deiner Handkarten.\nHinweis: Hast du nur noch eine Karte, verschenke nur diese. Spielst du «Gift» als deine letzte Karte, wähle trotzdem ein potenzielles Opfer. Der Angriff könnte noch gekontert werden.",
+      "edition": "Base",
+      "color": "Single"
+    },
+    {
+      "id": "skip",
+      "title": "Skip",
+      "description": "Wähle eine Person aus, welche ihren nächsten Zug aussetzen muss.\n\nHinweis: Du darfst keine Mitspielenden wählen, die noch aussetzen müssen.",
+      "edition": "Base",
+      "color": "Single"
+    },
+    {
+      "id": "colour-swaps",
+      "title": "Colour Swap",
+      "description": "Du kannst diese Karten nur auf eine der zwei Farben spielen. Danach geht das Spiel mit der jeweils anderen Farbe weiter.",
+      "edition": "Troublemaker",
+      "color": "Single"
+    },
+    {
+      "id": "thief",
+      "title": "Thief",
+      "description": "Schaue jemandem in die Handkarten und nimm zwei davon auf deine Hand.",
+      "edition": "Troublemaker",
+      "color": "Single"
+    },
+    {
+      "id": "troublemaker",
+      "title": "Troublemaker",
+      "description": "Löse sofort ein Ereignis aus.",
+      "edition": "Troublemaker",
+      "color": "Single"
+    },
+    {
+      "id": "fantastic",
+      "title": "Fantastic",
+      "description": "Kein Sondereffekt.\n\nWünsche dir eine Zahl oder eine Farbe.",
+      "edition": "Base",
+      "color": "Multi"
+    },
+    {
+      "id": "fantastic-four",
+      "title": "Fantastic Four",
+      "description": "Wähle zwingend eine*n oder mehrere Mitspielende aus, die insgesamt 4 Karten vom Stapel ziehen müssen. Du bestimmst die Aufteilung der 4 Karten. Wähle zuerst alle Opfer, bevor jemand mit dem Ziehen beginnt.\n\nHinweis: Dieser Sondereffekt muss ausgeführt werden.\n\nWünsche dir eine Zahl oder eine Farbe.",
+      "edition": "Base",
+      "color": "Multi"
+    },
+    {
+      "id": "counterattack",
+      "title": "Counterattack",
+      "description": "Ausserhalb deines Spielzuges:\nFalls du als Opfer einer Spezialkarte bestimmt wirst, darfst du «Counterattack» sofort reinwerfen. Der Spezialkarten-Effekt wird sofort abgebrochen. Führe den Effekt anschliessend selbst gegen beliebige Mitspieler*innen aus, als hättest du die ursprüngliche Spezialkarte gespielt.\n\nDie von dir ausgeführte Attacke kann wieder mit Counterattack abgewehrt werden.\n\nDas Reinwerfen von Counterattack zählt nicht als Spielzug. Wünsch dir trotzdem eine Farbe.\n\nIn deinem Spielzug:\n\nWünsche dir nur eine Farbe.",
+      "edition": "Base",
+      "color": "Multi"
+    },
+    {
+      "id": "equality",
+      "title": "Equality",
+      "description": "Wähle eine Person mit weniger Karten als du selbst. Diese muss nun so lange Karten vom Nachziehstapel ziehen, bis ihr gleich viele Karten auf der Hand habt.\n\nWünsche dir eine Farbe.",
+      "edition": "Base",
+      "color": "Multi"
+    },
+    {
+      "id": "inequality",
+      "title": "Inequality",
+      "description": "Wähle jemanden mit weniger oder gleich vielen Handkarten. Diese Person muss nun so lange verdeckt Karten von dir ziehen, bis sie mehr Karten auf der Hand hat als du.\n\nWünsch dir eine Farbe.",
+      "edition": "Troublemaker",
+      "color": "Multi"
+    },
+    {
+      "id": "lucky-bastard",
+      "title": "Lucky Bastard",
+      "description": "Ausserhalb deines Spielzugs:\n\nDu darfst diese Karte ausserhalb deines Zuges reinwerfen, sobald ein Ereignis ausgelöst wird, aber noch bevor dieses Ereignis aufgedeckt wurde.\n\nDu bist vom Effekt des Ereignisses ausgeschlossen.\n\nBeendet das Ereignis das Spiel, schreibst du keine Punkte auf.\n\nLöst das Ereignis ein weiteres Ereignis aus, bist du vor diesem nicht geschützt.\n\nDas Reinwerfen von «Lucky Bastard» zählt nicht als Spielzug. Wünsche dir trotzdem eine Farbe.\n\nIn deinem Spielzug:\n\nWünsche dir nur eine Farbe.",
+      "edition": "Troublemaker",
+      "color": "Multi"
+    },
+    {
+      "id": "nice-try",
+      "title": "Nice Try",
+      "description": "Ausserhalb deines Spielzuges:\n\nNachdem ein*e oder mehrere Mitspielende keine Handkarten mehr haben und alle Sondereffekte und Ereignisse des aktuellen Zuges abgeschlossen sind, kannst du «Nice Try» reinwerfen.\n\nAlle Mitspielenden, die ihre Karten soeben losgeworden sind, müssen dann anschliessend 3 Karten vom Stapel ziehen. Die Spielrunde geht an der zuvor unterbrochenen Stelle weiter.\n\nDas Reinwerfen von Nice Try zählt nicht als Spielzug. Wünsch dir trotzdem eine Farbe.\n\nHinweis: Haben mehrere Spieler*innen ihre letzte Handkarte abgelegt, müssen alle von ihnen 3 Karten ziehen.\n\nIn deinem Spielzug:\n\nWünsch dir nur eine Farbe.",
+      "edition": "Base",
+      "color": "Multi"
+    },
+    {
+      "id": "special-favours",
+      "title": "Special Favours",
+      "description": "Wähle eine Person. Tauscht nun alle eure Spezialkarten (alles ausser Zahlenkarten) – unabhängig von der Anzahl – miteinander.\n\nHinweis: Die «Fuck You»-Karte darfst du nur tauschen, wenn du Special Favours nicht selbst ausgespielt hast.\n\nWünsch dir eine Farbe.",
+      "edition": "Troublemaker",
+      "color": "Multi"
+    },
+    {
+      "id": "curse",
+      "title": "Curse",
+      "description": "Du kannst diese Karte nicht ausspielen. Du darfst sie aber wie jede andere Spielkarte verschenken, tauschen oder bei entsprechenden Ereignissen abwerfen.\n\nDiese Karte zählt am Ende einer Runde 13 Punkte.",
+      "edition": "Troublemaker",
+      "color": "White"
+    },
+    {
+      "id": "fuck-you",
+      "title": "Fuck You",
+      "description": "Du darfst diese Karte nur spielen, wenn du exakt 10 Karten auf der Hand hast (inkl. «Fuck You»). Spielst du diese Karte, schiebst du sie unter die oberste Karte des Ablagestapels. Das Spiel geht mit dieser obersten Karte weiter.\n\nHinweis: Du darfst die «Fuck You»-Karte nicht durch Spezialkarten-Effekte (z.B. «Gift» / «Exchange») gezielt an die Mitspielenden weitergeben. Wird sie jedoch von dir gezogen, darfst du sie weggeben. Bei Ereignissen wird «Fuck You» wie jede andere Spielkarte behandelt (abwerfen, weitergeben etc. erlaubt).\n\nDiese Karte zählt am Ende einer Runde 42 Punkte.",
+      "edition": "Base",
+      "color": "White"
+    },
+    {
+      "id": "mimicry",
+      "title": "Mimicry",
+      "description": "Diese Karte kann jede andere Spezialkarte (ausser besonderen Spezialkarten) imitieren. Bestimme den Effekt von «Mimicry», sobald du sie ausspielst.\n\nHinweis: Spielst du «Mimicry» als einfarbige Spezialkarte (z.B. als «Gift»), so übernimmt die Karte auch die bereits liegende Farbe und kann somit weder auf Schwarz noch auf einen Zahlenwunsch gespielt werden.\n\nDiese Karte zählt am Ende einer Runde 7 Punkte.",
+      "edition": "Base",
+      "color": "White"
+    }
+  ]
+}

@@ -20,8 +20,9 @@
     & > img {
         height: 48px;
         width: 48px;
-
         object-fit: contain;
+
+        filter: brightness(0);
     }
 
     & > figcaption {

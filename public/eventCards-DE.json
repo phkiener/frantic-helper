@@ -4,199 +4,232 @@
       "id": "black-hole",
       "title": "Black Hole",
       "description": "Wenn du das Ereignis ausgelöst hast, erhältst du alle Schwarzen Karten, die deine Mitspieler*innen auf den Händen halten.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "capitalism",
       "title": "Capitalism",
       "description": "Wer hat, dem wird gegeben. Alle ziehen der Reihe nach so viele Karten nach, wie sie bereits auf der Hand haben.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "charity",
       "title": "Charity",
       "description": "Sucht die Person mit den meisten Karten auf der Hand. Alle anderen ziehen nun von dieser Person verdeckt eine Karte.\nHinweis: Kommen mehrere Spieler*innen in Frage, müsst ihr von allen Personen mit den meisten Karten jeweils eine Karte ziehen (die mit den meisten Karten ziehen jedoch keine Karten voneinander). Haben alle gleich viele Karten, passiert nichts.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "communism",
       "title": "Communism",
       "description": "Zieht jeweils so viele Karten vom Nachziehstapel, bis ihr alle gleich viele Karten habt, wie die Person mit den meisten Handkarten.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "crowdfunding",
       "title": "Crowdfunding",
       "description": "Sucht die Person mit den wenigsten Handkarten. Nun müssen alle dieser Person eine beliebige Karte aus ihrer Hand schenken.\n\nHinweis: Kommen mehrere Spieler*innen in Frage, müsst ihr allen Personen mit den wenigsten Karten eine eurer Handkarten geben (die mit den wenigsten Karten geben sich jedoch gegenseitig keine Karten). Haben alle gleich viele Karten, passiert nichts.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "distributor",
       "title": "Distributor",
       "description": "Jeder von euch legt die Handkarten als verdeckter Stapel vor sich ab. Wer das Ereignis ausgelöst hat, schaut sich alle Handkarten-Stapel an und verteilt diese beliebig neu, ohne die Stapel zu vermischen. Wer die Stapel verteilt, muss sich selbst zwingend andere Handkarten geben als zuvor, für alle anderen gilt diese Regel nicht.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "doomsday",
       "title": "Doomsday",
       "description": "Die Runde ist sofort beendet. Alle erhalten 50 Punkte. Die Punkte eurer Handkarten werden nicht gewertet.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "double-taxation",
       "title": "Double Taxation",
       "description": "Jeder von euch zählt die Punkte der drei höchsten Handkarten (Zahlen- & Spezialkarten) zusammen. Wer mit den höchsten drei Karten am wenigsten Punkte hat, zieht eine Karte vom Stapel. Wer die zweitniedrigste Punktzahl hat, zieht zwei usw. Bei Punktegleichstand müssen die Betroffenen je gleich viele Karten ziehen.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "earthquake",
       "title": "Earthquake",
       "description": "Gebt eure Handkarten nach rechts weiter.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "event-manager",
       "title": "Event Manager",
       "description": "Deckt die obersten drei Karten vom Ereigniskarten-Stapel auf. Wer das Ereignis ausgelöst hat, wählt eines dieser drei Ereignisse aus, welches dann ausgeführt wird.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "expansion",
       "title": "Expansion",
       "description": "Der Reihe nach zieht ihr Karten vom Nachziehstapel: Die erste Person zieht eine Karte, die zweite zieht zwei, die dritte drei usw.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "finish-line",
       "title": "Finish Line",
       "description": "Die Spielrunde ist sofort beendet. Zählt die Punkte eurer Handkarten zusammen.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "friday-the-13th",
       "title": "Friday the 13th",
       "description": "Es ist Freitag, der Dreizehnte. Ein Massenmörder mit Hockeymaske geht um ... Aber nur im Film. Es ist ein normaler Tag wie jeder andere auch. Nichts geschieht und die Runde geht normal weiter.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "gambling-man",
       "title": "Gambling Man",
       "description": "Legt eine beliebige Handkarte verdeckt vor euch ab. Deckt die Karten anschliessend gleichzeitig auf. Die Person, dessen Karte den zweitniedrigsten Punktewert aufweist, muss nun sämtliche abgelegten Karten auf die Hand nehmen. Bei Gleichstand trifft es die erste Person in Spielreihenfolge.\n\nHinweis: Wer keine Handkarten zum Ablegen hat, muss automatisch die abgelegten Karten aufnehmen.\n\nKommen mehrere Personen in Frage, trifft es jeweils die erste Person in Spielrichtung.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "identity-theft",
       "title": "Identity Theft",
       "description": "Die Person mit dem höchsten Punktestand tauscht diesen mit der Person, die den niedrigsten Punktestand hat.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "last-chance",
       "title": "Last Chance",
       "description": "Gilt bis zum Rundenende\n\nWird eine Person – nicht durch den Effekt eines Ereignisses – ihre letzte Handkarte los, wird sofort ein Ereignis ausgelöst und ausgeführt. Gegebenenfalls kann das auch mehrmals passieren, bis die Runde endgültig beendet ist.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "market",
       "title": "Market",
       "description": "Deckt für alle Mitspielenden je eine Karte vom Stapel auf. Der Reihe nach nimmt sich nun jede*r eine dieser Karten auf die Hand.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "mating-season",
       "title": "Mating Season",
       "description": "Werft alle Zahlenkarten ab, deren Zahlenwert ihr mehrfach auf der Hand habt. Dies gilt auch für schwarze Zahlenkarten.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "merry-christmas",
       "title": "Merry Christmas",
       "description": "Verteilt der Reihe nach alle eure Handkarten verdeckt an beliebige Mitspieler*innen. Die Aufteilung bleibt euch selbst überlassen. Haben alle ihre Spielkarten verteilt, nehmt ihr die von den Mitspielenden erhaltenen Karten als eure neuen Handkarten auf.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "mexican-standoff",
       "title": "Mexican Standoff",
       "description": "Werft alle eure Handkarten ab und zieht der Reihe nach drei neue Karten vom Stapel.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "plague",
       "title": "Plague",
       "description": "Deckt nacheinander zwei weitere Ereigniskarten auf und führt diese der Reihe nach aus. Auch wenn das erste Ereignis die Runde beendet oder jemand alle Karten loswird, führt ihr das zweite Ereignis noch so gut wie möglich aus.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "n-plus-1",
       "title": "Plus one",
       "description": "Gilt bis zum Rundenende\n\nJedes Mal, wenn jemand eine oder mehrere Karten vom Nachziehstapel zieht, muss eine zusätzliche Karte gezogen werden.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "recession",
       "title": "Recession",
       "description": "Der Reihe nach werft ihr beliebige Handkarten ab: Die erste Person verwirft eine Karte, die zweite verwirft zwei, die dritte drei usw.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "repeat",
       "title": "Repeat",
       "description": "Wer das Ereignis ausgelöst hat, muss ein in dieser Runde bereits aufgedecktes Ereignis auswählen und erneut ausführen.\n\nHinweis: Wurden in dieser Runde noch keine Ereignisse aufgedeckt, ist «Repeat» wirkungslos.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "robin-hood",
       "title": "Robin Hood",
       "description": "Sucht die Person mit den meisten und diejenige mit den wenigsten Karten auf der Hand. Diese beiden müssen nun ihre Handkarten tauschen.\n\nHinweis: Kommen mehrere Personen in Frage, trifft es jeweils die erste Person in Spielrichtung. Haben alle gleich viele Karten, passiert nichts.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "russian-roulette",
       "title": "Russian Roulette",
       "description": "Jede Person legt eine Handkarte ihrer Wahl verdeckt vor sich ab. Wer das Ereignis ausgelöst hat, nimmt alle diese Karten zusammen, mischt sie und legt sie dann verdeckt auf den Nachziehstapel.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "seppukku",
       "title": "Seppuku",
       "description": "Alle Mitspielenden entscheiden sich der Reihe nach, ob sie Seppuku begehen wollen. Dazu deckt ihr die oberste Karte vom Nachziehstapel auf. Ist diese eine Zahlenkarte, werden sofort 21 Punkte vom Kontostand abgezogen. Ist es eine andere Karte, werden 42 zusätzliche Punkte angerechnet. Wer es nicht riskiert, erhält 21 Punkte.\n\nHinweis: Die durch Seppuku aufgedeckten Karten kommen unter die oberste Karte des Ablagestapels.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "surprise-party",
       "title": "Surprise Party",
       "description": "Verschenkt der Reihe nach eine Handkarte an eine beliebige Person.\n\nHinweis: Erhaltene Karten werden erst nach dem Ereignis auf die Hand genommen.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "the-all-seeing-eye",
       "title": "The All-Seeing Eye",
       "description": "Legt alle eure Handkarten vor euch offen auf den Tisch. Wenn alle die Karten zufriedenstellend beäugt haben, nehmt ihr die Karten wieder auf die Hand und spielt weiter.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "timebomb",
       "title": "Time Bomb",
       "description": "Alle haben jetzt noch drei Züge, spätestens danach endet die Runde.\n\nBeendet jemand zuvor die Runde, werden zehn Punkte vom jeweiligen Konto abgezogen und die anderen zählen zehn Punkte zu ihren Handkarten-Punkten dazu.\n\nSchafft es niemand, die Runde in drei Zügen zu beenden, zählen die Punkte aller Spieler*innen doppelt.\n\nHinweis: Aussetzen zählt auch als Spielzug.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "tornado",
       "title": "Tornado",
       "description": "Legt alle eure Handkarten zusammen. Mischt die Karten und teilt sie verdeckt – Karte um Karte – reihum neu aus, bis alle verteilt sind.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     },
     {
       "id": "trust-fall",
       "title": "Trust Fall",
       "description": "Alle Mitspielenden wählen der Reihe nach eine Person aus, von der sie zwei Handkarten erhalten. Hat die gewählte Person weniger als zwei Karten auf der Hand, gibt diese entsprechend nur eine bzw. keine Karte weiter.\n\nHinweis: Erhaltene Karten werden erst nach dem Ereignis auf die Hand genommen.",
-      "edition": "Troublemaker"
+      "edition": "Troublemaker",
+      "color": "Black"
     },
     {
       "id": "vandalism",
       "title": "Vandalism",
       "description": "Ermittelt die zuletzt ausgespielte Farbe (ausser schwarz). Alle Spieler*innen müssen nun sämtliche Handkarten dieser Farbe abwerfen.\n\nHinweis: Wurde noch keine Farbe gespielt, ist das Ereignis wirkungslos.",
-      "edition": "Base"
+      "edition": "Base",
+      "color": "Black"
     }
   ]
 }

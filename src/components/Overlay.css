@@ -1,6 +1,7 @@
 .overlay {
     box-sizing: border-box;
 
+    z-index: 2;
     position: fixed;
     inset: 0;
     padding: 18px;
