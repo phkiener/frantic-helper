@@ -10,7 +10,7 @@ type Props = {
 function About(props: Props) {
     return (
         <>
-            <IconButton label="About" onClick={props.onClick} />
+            <IconButton label="About" iconSrc="icons/event-manager.svg" onClick={props.onClick} />
             <Overlay visible={props.expanded ?? false} title="About" onClose={props.onClick}>
                 <p>
                     Frantic and related content (card titles, descriptions, images) are owned and

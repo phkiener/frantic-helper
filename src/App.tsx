@@ -21,7 +21,7 @@ function App() {
             <footer>
                 <SpecialCards expanded={expandedCard === "SpecialCards"} onClick={() => toggleCard("SpecialCards")} />
                 <EventCards expanded={expandedCard === "Events"} onClick={() => toggleCard("Events")} />
-                <About expanded={expandedCard === "Events"} onClick={() => toggleCard("Events")} />
+                <About expanded={expandedCard === "About"} onClick={() => toggleCard("About")} />
             </footer>
         </>);
 

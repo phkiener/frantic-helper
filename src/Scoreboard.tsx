@@ -20,29 +20,29 @@ function Scoreboard() {
                             <button type="button" onClick={() => setIsWriting(false)}>Done</button>
                         </>
                         : <>
-                            <button type="button" onClick={() => setScore(s => s + 1)}>+1</button>
-                            <button type="button" onClick={() => setScore(s => s + 2)}>+2</button>
-                            <button type="button" onClick={() => setScore(s => s + 3)}>+3</button>
-                            <button type="button" onClick={() => setScore(s => s + 4)}>+4</button>
-                            <button type="button" onClick={() => setScore(s => s + 5)}>+5</button>
-                            <button type="button" onClick={() => setScore(s => s + 6)}>+6</button>
-                            <button type="button" onClick={() => setScore(s => s + 7)}>+7</button>
-                            <button type="button" onClick={() => setScore(s => s + 8)}>+8</button>
-                            <button type="button" onClick={() => setScore(s => s + 9)}>+9</button>
-                            <button type="button" onClick={() => setScore(s => s + 10)}>+10</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 1)}>+1</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 2)}>+2</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 3)}>+3</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 4)}>+4</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 5)}>+5</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 6)}>+6</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 7)}>+7</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 8)}>+8</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 9)}>+9</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 10)}>+10</button>
                             <br/>
-                            <button type="button" onClick={() => setScore(s => s + 7)}>Special Card</button>
-                            <button type="button" onClick={() => setScore(s => s + 13)}>Curse</button>
-                            <button type="button" onClick={() => setScore(s => s + 42)}>Fuck You</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 7)}>Special Card</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 13)}>Curse</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 42)}>Fuck You</button>
                             <br/>
-                            <button type="button" onClick={() => setScore(s => s - 21)}>Seppuku (Success)</button>
-                            <button type="button" onClick={() => setScore(s => s + 42)}>Seppuku (Fail)</button>
-                            <button type="button" onClick={() => setScore(s => s + 21)}>Seppuku (Skip)</button>
+                            <button type="button" onClick={() => modifyScore(s => s - 21)}>Seppuku (Success)</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 42)}>Seppuku (Fail)</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 21)}>Seppuku (Skip)</button>
                             <br/>
-                            <button type="button" onClick={() => setScore(s => s + 50)}>Doomsday</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 50)}>Doomsday</button>
                             <br/>
-                            <button type="button" onClick={() => setScore(s => s - 10)}>Timebomb (Success)</button>
-                            <button type="button" onClick={() => setScore(s => s + 10)}>Timebomb (Fail)</button>
+                            <button type="button" onClick={() => modifyScore(s => s - 10)}>Timebomb (Success)</button>
+                            <button type="button" onClick={() => modifyScore(s => s + 10)}>Timebomb (Fail)</button>
                             <br/>
                             <button type="button" onClick={() => setIsWriting(true)}>Change</button>
                             <button type="button" onClick={() => setScore(0)}>Clear</button>
@@ -60,6 +60,14 @@ function Scoreboard() {
         }
 
         setScore(score);
+    }
+
+    function modifyScore(change: (current: number) => number) {
+        setScore(current => {
+           const updated = change(current);
+
+           return Math.max(0, updated);
+        });
     }
 }
 
