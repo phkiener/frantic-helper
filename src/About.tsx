@@ -20,6 +20,10 @@ function About(props: Props) {
                 <p>
                     Content taken from <a href="https://rulefactory.ch/rulebook/frantic-original/">https://rulefactory.ch/rulebook/frantic-original/</a>.
                 </p>
+
+                <p>
+                    Source code can be found <a href="https://github.com/phkiener/frantic-helper">on GitHub</a>.
+                </p>
             </Overlay>
         </>
     );
