@@ -9,7 +9,7 @@ function CardDetails(props: Props) {
     return (
         <article className={`card-details ${props.card.color}`}>
             <aside>
-                <img src={`/icons/${props.card.id}.svg`} alt="Icon" />
+                <img src={`${import.meta.env.BASE_URL}/icons/${props.card.id}.svg`} alt="Icon" />
             </aside>
 
             <header>{props.card.title}</header>

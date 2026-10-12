@@ -10,7 +10,7 @@ type Props = {
 function IconButton(props: Props) {
     return (
         <figure onClick={props.onClick} className="icon-button">
-            <img src={props.iconSrc} alt={props.label} />
+            <img src={`${import.meta.env.BASE_URL}/${props.iconSrc}`} alt={props.label} />
             <figcaption>{props.label}</figcaption>
         </figure>
     );
